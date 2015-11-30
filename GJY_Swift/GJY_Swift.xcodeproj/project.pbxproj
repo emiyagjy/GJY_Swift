@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7CA1E21C0BF6A900E95826 /* ControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C8464BD1C0C22EE009662EE /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9C938E551C0710A6009541D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C938E541C0710A6009541D6 /* AppDelegate.swift */; };
 		9C938E5A1C0710A6009541D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C938E581C0710A6009541D6 /* Main.storyboard */; };
 		9C938E5C1C0710A6009541D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C938E5B1C0710A6009541D6 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowViewController.swift; sourceTree = "<group>"; };
+		9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
 		9C938E511C0710A6009541D6 /* GJY_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJY_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C938E541C0710A6009541D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C938E591C0710A6009541D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				9C938E871C080195009541D6 /* BasicOperatorViewController.swift */,
 				9C938E891C080ADB009541D6 /* CharactersAndStringViewController.swift */,
 				9C938E8B1C084E40009541D6 /* CollectionTypesViewController.swift */,
+				9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */,
+				9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -276,6 +282,8 @@
 				9C938E551C0710A6009541D6 /* AppDelegate.swift in Sources */,
 				9C938E881C080195009541D6 /* BasicOperatorViewController.swift in Sources */,
 				9C938E8A1C080ADB009541D6 /* CharactersAndStringViewController.swift in Sources */,
+				9C8464BD1C0C22EE009662EE /* FunctionViewController.swift in Sources */,
+				9C7CA1E21C0BF6A900E95826 /* ControlFlowViewController.swift in Sources */,
 				9C938E8C1C084E40009541D6 /* CollectionTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +509,7 @@
 				9C938E7B1C0710A6009541D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C938E7C1C0710A6009541D6 /* Build configuration list for PBXNativeTarget "GJY_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +518,7 @@
 				9C938E7E1C0710A6009541D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C938E7F1C0710A6009541D6 /* Build configuration list for PBXNativeTarget "GJY_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +527,7 @@
 				9C938E811C0710A6009541D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

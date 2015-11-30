@@ -30,7 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //  字符串和字符
 //        let vc = CharactersAndStringViewController();
         // 集合类型
-        let vc  = CollectionTypesViewController();
+//        let vc  = CollectionTypesViewController();
+        // 控制流
+//        let vc =  ControlFlowViewController()
+        // 函数
+        let vc  = FunctionViewController()
+        
         window?.rootViewController = vc ;
         
         window?.makeKeyAndVisible();
