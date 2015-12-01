@@ -34,7 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 控制流
 //        let vc =  ControlFlowViewController()
         // 函数
-        let vc  = FunctionViewController()
+//        let vc  = FunctionViewController()
+        // 闭包
+//        let vc = ClosuresViewController()
+        // 枚举
+        let vc = EnumerationsViewController()
         
         window?.rootViewController = vc ;
         

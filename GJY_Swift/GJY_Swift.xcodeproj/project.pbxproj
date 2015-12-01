@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9C7CA1E21C0BF6A900E95826 /* ControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9C8464BD1C0C22EE009662EE /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C8464BF1C0C3E84009662EE /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8464BE1C0C3E84009662EE /* ClosuresViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C8464C11C0C5911009662EE /* EnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8464C01C0C5911009662EE /* EnumerationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9C938E551C0710A6009541D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C938E541C0710A6009541D6 /* AppDelegate.swift */; };
 		9C938E5A1C0710A6009541D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C938E581C0710A6009541D6 /* Main.storyboard */; };
 		9C938E5C1C0710A6009541D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C938E5B1C0710A6009541D6 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowViewController.swift; sourceTree = "<group>"; };
 		9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		9C8464BE1C0C3E84009662EE /* ClosuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
+		9C8464C01C0C5911009662EE /* EnumerationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumerationsViewController.swift; sourceTree = "<group>"; };
 		9C938E511C0710A6009541D6 /* GJY_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJY_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C938E541C0710A6009541D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C938E591C0710A6009541D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 				9C938E8B1C084E40009541D6 /* CollectionTypesViewController.swift */,
 				9C7CA1E11C0BF6A900E95826 /* ControlFlowViewController.swift */,
 				9C8464BC1C0C22EE009662EE /* FunctionViewController.swift */,
+				9C8464BE1C0C3E84009662EE /* ClosuresViewController.swift */,
+				9C8464C01C0C5911009662EE /* EnumerationsViewController.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -279,11 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C938E841C080148009541D6 /* BasicViewController.swift in Sources */,
+				9C8464C11C0C5911009662EE /* EnumerationsViewController.swift in Sources */,
 				9C938E551C0710A6009541D6 /* AppDelegate.swift in Sources */,
 				9C938E881C080195009541D6 /* BasicOperatorViewController.swift in Sources */,
 				9C938E8A1C080ADB009541D6 /* CharactersAndStringViewController.swift in Sources */,
 				9C8464BD1C0C22EE009662EE /* FunctionViewController.swift in Sources */,
 				9C7CA1E21C0BF6A900E95826 /* ControlFlowViewController.swift in Sources */,
+				9C8464BF1C0C3E84009662EE /* ClosuresViewController.swift in Sources */,
 				9C938E8C1C084E40009541D6 /* CollectionTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
